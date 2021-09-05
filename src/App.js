@@ -1,15 +1,16 @@
 import './App.css';
 import Card from './components/Card';
-import * as card from './components/card'
+import {cards} from './components/cards'
 
 function App() {
   return (
     <div className="App">
         <Card
-        cardItems={card.theFool}
+        cardItems={cards}
         type="Generate Your Major Arcana Tarot Card"
         className="movie-text"
       />
+
     </div>
   );
 }
