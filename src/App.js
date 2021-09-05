@@ -8,7 +8,7 @@ function App() {
         <Card
         cardItems={cards}
         type="Generate Your Major Arcana Tarot Card"
-        className="movie-text"
+        className="card"
       />
 
     </div>

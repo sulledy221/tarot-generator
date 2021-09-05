@@ -9,14 +9,14 @@ export default function Card({ cardItems, type }) {
     return setChoice(cardItems[majorArcana]);
   };
   return (
-    <div>
+    <div className="card-page">
       <button onClick={randomChoice} className="button-size">
         {type}
       </button>
+      {choice ? (<img src={`/assets/${choice.url}.jpeg`} alt="images" className="img"/>) : null}
       <br />
       {choice ? `${choice.title}` : null}<br />
-      {choice ? (<img src={`/assets/${choice.url}.jpeg`} alt="images" />) : null}<br/>
-      {choice ? `${choice.upright}` : null } <br />
+      {choice ? `${choice.upright}` : null} <br />
       {/* {choice ? `${choice.reverse}` : null} <br /> */}
       {console.log("is this working", choice)}
 

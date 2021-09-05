@@ -1,6 +1,26 @@
 * {
-  background-color: black;
+  background-color: rgb(123, 120, 120);
   color: green;
   font-size: 50px;
+  font-family: fantasy;
 }
 
+
+.button-size{
+  color: rgb(107, 160, 105);
+  margin-top: 15px;
+  display: flex;
+  background-color: black;
+  cursor: pointer;
+}
+
+.card-page{
+  color: rgb(0, 3, 5);
+  padding: 10px;
+  justify-content: center;
+}
+
+.img{
+  height: 300px;
+  margin-top: 15px;
+}
